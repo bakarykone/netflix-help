@@ -1,0 +1,36 @@
+.container-carousel .carousel{
+    display: flex;
+}
+
+.container-carousel{
+    overflow-x: scroll;
+    overflow: hidden ;
+    scroll-behavior: smooth;
+}
+
+.pics {
+    min-width: 20%;
+}
+
+
+
+/*medium devices (tabletes pro...)*/
+@media only screen and (max-width : 1200px) {
+  .pics{
+      min-width: 24%;
+  }
+}
+
+/*small devices (tablets...)*/
+@media only screen and (max-width : 900px) {
+  .pics {
+      min-width: 32%;
+  }
+}
+
+/*extra small devices (tablets...)*/
+@media only screen and (max-width : 600px) {
+.pics {
+    min-width: 48%;
+}
+}
